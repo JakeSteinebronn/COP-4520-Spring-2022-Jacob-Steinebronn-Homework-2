@@ -1,7 +1,11 @@
 To compile and run part1:
+
 g++ -std=c++17 -O3 -pthread ./part1.cpp && ./a.out
+
 To compile and run part2:
+
 g++ -std=c++17 -O3 -pthread ./part2.cpp && ./a.out
+
 
 Part 1:
 This uses the algorithm discussed in class. The guests choose a leader "guest 0", and every other guest is the follower. 
